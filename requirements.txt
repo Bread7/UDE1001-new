@@ -1,0 +1,16 @@
+asgiref==3.5.2
+beautifulsoup4==4.11.1
+certifi==2022.9.24
+Django==4.1
+django-crispy-forms==1.14.0
+Faker==15.1.0
+pip==22.2.2
+psycopg2==2.8.6
+python-dateutil==2.8.2
+python-dotenv==0.21.0
+setuptools==63.4.1
+six==1.16.0
+soupsieve==2.3.1
+sqlparse==0.4.1
+toposort==1.7
+wheel==0.37.1

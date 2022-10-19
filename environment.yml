@@ -1,0 +1,9 @@
+name: ude
+channels:
+  - defaults
+dependencies:
+  - python=3.10.6
+  - django
+  - psycopg2
+  - beautifulsoup4
+prefix: /Users/zj/opt/miniconda3/envs/ude
