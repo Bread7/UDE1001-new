@@ -27,7 +27,7 @@ Postgres >14
 
 ## Notes
 Generate list of installed modules\
-`conda env export > environment.yml`\
+`conda env export --from-hisotry > environment.yml`\
 `pip list --format=freeze > requirements.txt`
 
 To seed data: use dumpdata -> loaddata\
