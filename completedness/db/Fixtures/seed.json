@@ -1,0 +1,42 @@
+[
+{
+    "model": "db.workshops",
+    "pk": 1,
+    "fields": {
+        "name": "math",
+        "link": "https://www.youtube.com/watch?v=wXzfoeIXW5w"
+    }
+},
+{
+    "model": "db.workshops",
+    "pk": 2,
+    "fields": {
+        "name": "bodystorming",
+        "link": "https://youtu.be/o5zCZdZk2bY"
+    }
+},
+{
+    "model": "db.eca",
+    "pk": 1,
+    "fields": {
+        "name": "badminton",
+        "cost": "5"
+    }
+},
+{
+    "model": "db.eca",
+    "pk": 2,
+    "fields": {
+        "name": "football",
+        "cost": "5"
+    }
+},
+{
+    "model": "db.connections",
+    "pk": 1,
+    "fields": {
+        "name": "SIT",
+        "details": "$10000 worth of tuition if you enjoy trimester studies and travelling to the east."
+    }
+}
+]

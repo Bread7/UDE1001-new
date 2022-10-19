@@ -1,0 +1,22 @@
+{% extends '../index.html' %}
+{% block content %} 
+{% load crispy_forms_tags %}
+{% if user.is_authenticated %}
+
+<html>
+    <body>
+        <div class="container py-5">
+            <div class="card">
+                <div class="card-body">
+                    {% for rows in data %}
+                    <h2 class="card-title text-center">{{rows.name}}</h2>
+                    <p class="card-text text-center">{{rows.details}}</p>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+{% endif %}
+{% endblock %}

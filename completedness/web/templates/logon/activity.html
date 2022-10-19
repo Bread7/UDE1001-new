@@ -1,0 +1,28 @@
+{% extends '../index.html' %}
+{% block content %} 
+{% load crispy_forms_tags %}
+{% if user.is_authenticated %}
+
+<html>
+    <body>
+        <div class="container py-5">
+                    {% for rows in data %}
+                    <div class="col mt-3">
+                        <div class="card">
+                            <p class="card-header">{{rows.name}}</p>
+                            <form method="POST" action="{%url 'web:postSeminar'%}"">
+                            {% csrf_token %}
+        
+                            <button class="btn btn-primary card-link" type="submit">
+                            <a rel="noopener noreferrer" target="blank">{{rows.cost}}</a>
+                            </button>
+                            </form>  
+                        </div>
+                    </div>           
+                    {% endfor %}
+        </div>
+    </body>
+</html>
+
+{% endif %}
+{% endblock %}
